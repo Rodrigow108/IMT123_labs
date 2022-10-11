@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Aug 19 09:19:12 2022
+# Process ID: 20040
+# Current directory: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/Lab_2 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20068 C:\Users\ANDRES ESCOBAR\Documents\5to Semestre\Circuitos Digitales\Laboratorios\Lab_2 2\Lab_2 2\Lab_2 2.xpr
+# Log file: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/Lab_2 2/vivado.log
+# Journal file: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/Lab_2 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/Lab_2 2/Lab_2 2.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+open_project {C:/Users/ANDRES ESCOBAR/project_lab1_Sum/project_lab1_Sum.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+current_project {Lab_2 2}
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sim_1
+launch_simulation
+source lab2_tb.tcl
+close_sim
+launch_simulation
+source lab2_tb.tcl
+current_project project_lab1_Sum
+launch_simulation
+source lab1_D.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+source lab1_t.tcl
+current_project {Lab_2 2}
+current_sim simulation_2
+close_sim
+close_project
+current_sim simulation_4
+close_sim
+close_sim

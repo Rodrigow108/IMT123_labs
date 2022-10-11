@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/comp.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/lab6_ds.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/nand_gate2.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/nand_gate3.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/nand_gate5.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/not_gate.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/or_gate2.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/or_gate3.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/or_gate4.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/or_gate5.vhd" \
+"../../../../project_lab6_Comparador.srcs/sources_1/new/xor_gate2.vhd" \
+"../../../../project_lab6_Comparador.srcs/sim_1/new/lab6_tb.vhd" \
+
+# Do not sort compile order
+nosort

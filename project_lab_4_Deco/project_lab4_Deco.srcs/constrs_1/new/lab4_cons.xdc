@@ -1,0 +1,38 @@
+set_property PACKAGE_PIN M15 [get_ports A]
+set_property PACKAGE_PIN H17 [get_ports B]
+set_property PACKAGE_PIN H18 [get_ports C]
+set_property PACKAGE_PIN H19 [get_ports D]
+set_property PACKAGE_PIN F21 [get_ports BLin]
+
+
+set_property PACKAGE_PIN U14 [get_ports Aout]
+set_property PACKAGE_PIN U19 [get_ports Bout]
+set_property PACKAGE_PIN W22 [get_ports Cout]
+set_property PACKAGE_PIN U21 [get_ports Eout]
+set_property PACKAGE_PIN U22 [get_ports Fout]
+set_property PACKAGE_PIN U22 [get_ports Gout]
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports A]
+set_property IOSTANDARD LVCMOS33 [get_ports B]
+set_property IOSTANDARD LVCMOS33 [get_ports C]
+set_property IOSTANDARD LVCMOS33 [get_ports D]
+set_property IOSTANDARD LVCMOS33 [get_ports BLin]
+
+set_property IOSTANDARD LVCMOS21 [get_ports Aout]
+set_property IOSTANDARD LVCMOS21 [get_ports Bout]
+set_property IOSTANDARD LVCMOS21 [get_ports Cout]
+set_property IOSTANDARD LVCMOS21 [get_ports Dout]
+set_property IOSTANDARD LVCMOS21 [get_ports Eout]
+set_property IOSTANDARD LVCMOS21 [get_ports Fout]
+set_property IOSTANDARD LVCMOS21 [get_ports Gout]
+
+set_property IOSTANDARD LVCMOS33 [get_ports Aout]
+set_property IOSTANDARD LVCMOS33 [get_ports Bout]
+set_property IOSTANDARD LVCMOS33 [get_ports Cout]
+set_property IOSTANDARD LVCMOS33 [get_ports Dout]
+set_property IOSTANDARD LVCMOS33 [get_ports Eout]
+set_property IOSTANDARD LVCMOS33 [get_ports Fout]
+set_property PACKAGE_PIN V22 [get_ports Dout]
+set_property PACKAGE_PIN T21 [get_ports Gout]
+set_property IOSTANDARD LVCMOS33 [get_ports Gout]

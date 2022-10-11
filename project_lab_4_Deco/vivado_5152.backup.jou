@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Sep  2 19:20:59 2022
+# Process ID: 5152
+# Current directory: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/lab circutos digitales/project_lab4_Deco
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10704 C:\Users\Rodrigo Herrera\OneDrive\Escritorio\lab circutos digitales\project_lab4_Deco\project_lab4_Deco.xpr
+# Log file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/lab circutos digitales/project_lab4_Deco/vivado.log
+# Journal file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/lab circutos digitales/project_lab4_Deco\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/lab circutos digitales/project_lab4_Deco/project_lab4_Deco.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source lab4_tb.tcl
+close_sim

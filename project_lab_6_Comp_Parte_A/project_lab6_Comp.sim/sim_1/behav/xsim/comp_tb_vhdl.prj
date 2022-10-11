@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_lab6_Comp.srcs/sources_1/new/comp_ds.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/nand_gate2.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/nand_gate3.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/nand_gate5.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/not_gate.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/or_gate2.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/or_gate3.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/or_gate4.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/or_gate5.vhd" \
+"../../../../project_lab6_Comp.srcs/sources_1/new/xor_gate2.vhd" \
+"../../../../project_lab6_Comp.srcs/sim_1/new/comp_tb.vhd" \
+
+# Do not sort compile order
+nosort

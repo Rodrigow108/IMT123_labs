@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/comp_ds.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'comp_ds'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/nand_gate2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_gate2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/nand_gate3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_gate3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/nand_gate5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_gate5'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/not_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'not_gate'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/or_gate2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'or_gate2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/or_gate3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'or_gate3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/or_gate4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'or_gate4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/or_gate5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'or_gate5'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/Lab_2 2/project_lab6_Comp/project_lab6_Comp.srcs/sources_1/new/xor_gate2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'xor_gate2'

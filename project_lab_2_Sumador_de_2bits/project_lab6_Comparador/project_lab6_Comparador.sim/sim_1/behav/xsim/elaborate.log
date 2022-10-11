@@ -1,0 +1,25 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 124089c896f3427c9e2de47a8db0a179 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot lab6_tb_behav xil_defaultlib.lab6_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.not_gate [not_gate_default]
+Compiling architecture behavioral of entity xil_defaultlib.nand_gate2 [nand_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.xor_gate2 [xor_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate2 [or_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate3 [or_gate3_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate4 [or_gate4_default]
+Compiling architecture behavioral of entity xil_defaultlib.or_gate5 [or_gate5_default]
+Compiling architecture behavioral of entity xil_defaultlib.nand_gate5 [nand_gate5_default]
+Compiling architecture behavioral of entity xil_defaultlib.nand_gate3 [nand_gate3_default]
+Compiling architecture behavioral of entity xil_defaultlib.comp [comp_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab6_ds [lab6_ds_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab6_tb
+Built simulation snapshot lab6_tb_behav

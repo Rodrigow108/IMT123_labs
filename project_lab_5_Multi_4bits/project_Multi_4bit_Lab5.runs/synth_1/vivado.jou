@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep  6 10:10:00 2022
+# Process ID: 23576
+# Current directory: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/project_lab4_Deco1/project_Multi_4bit_Lab5/project_Multi_4bit_Lab5.runs/synth_1
+# Command line: vivado.exe -log mod_add_4BIT_ds.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mod_add_4BIT_ds.tcl
+# Log file: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/project_lab4_Deco1/project_Multi_4bit_Lab5/project_Multi_4bit_Lab5.runs/synth_1/mod_add_4BIT_ds.vds
+# Journal file: C:/Users/ANDRES ESCOBAR/Documents/5to Semestre/Circuitos Digitales/Laboratorios/project_lab4_Deco1/project_Multi_4bit_Lab5/project_Multi_4bit_Lab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mod_add_4BIT_ds.tcl -notrace
