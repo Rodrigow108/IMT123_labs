@@ -1,0 +1,1 @@
+-wto "cf1a963b9aa24db3b5624573d8feebe9" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Flipflop_tb_behav" "xil_defaultlib.Flipflop_tb" -log "elaborate.log" 
