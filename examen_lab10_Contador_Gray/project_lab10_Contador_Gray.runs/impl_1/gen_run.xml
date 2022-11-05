@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1667317668">
+  <File Type="PA-TCL" Name="lab10_ds.tcl"/>
+  <File Type="BITSTR-BMM" Name="lab10_ds_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="lab10_ds_reports.tcl"/>
+  <File Type="OPT-DCP" Name="lab10_ds_opt.dcp"/>
+  <File Type="OPT-DRC" Name="lab10_ds_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="lab10_ds.hwdef"/>
+  <File Type="PWROPT-DCP" Name="lab10_ds_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="lab10_ds_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="lab10_ds_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="lab10_ds.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="lab10_ds_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="lab10_ds.bin"/>
+  <File Type="PHYSOPT-DCP" Name="lab10_ds_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="lab10_ds.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="lab10_ds_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="lab10_ds_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="lab10_ds_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="lab10_ds.ltx"/>
+  <File Type="BITSTR-MMI" Name="lab10_ds.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="lab10_ds.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="lab10_ds_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="lab10_ds_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lab10_ds_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="lab10_ds.bit"/>
+  <File Type="BITSTR-RBT" Name="lab10_ds.rbt"/>
+  <File Type="BITSTR-NKY" Name="lab10_ds.nky"/>
+  <File Type="BG-DRC" Name="lab10_ds.drc"/>
+  <File Type="RDI-RDI" Name="lab10_ds.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clock.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flip_flop_D.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_Z.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_q0.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_q2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/muti_q1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab10_ds.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lab10_ds"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/lab10_cons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/lab10_cons.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

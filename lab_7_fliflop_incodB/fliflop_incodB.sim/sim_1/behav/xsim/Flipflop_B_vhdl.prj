@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../fliflop_incodB.srcs/sources_1/new/Clock2.vhd" \
+"../../../../fliflop_incodB.srcs/sources_1/new/flipflopd.vhd" \
+"../../../../fliflop_incodB.srcs/sources_1/new/Flipflop_B.vhd" \
+
+# Do not sort compile order
+nosort

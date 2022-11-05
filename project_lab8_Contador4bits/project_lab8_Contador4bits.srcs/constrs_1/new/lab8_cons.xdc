@@ -1,0 +1,13 @@
+set_property IOSTANDARD LVCMOS33 [get_ports CLOCK1]
+set_property IOSTANDARD LVCMOS33 [get_ports {q0}]
+set_property IOSTANDARD LVCMOS33 [get_ports {q2}]
+set_property IOSTANDARD LVCMOS33 [get_ports reset1]
+set_property IOSTANDARD LVCMOS33 [get_ports {q3}]
+set_property IOSTANDARD LVCMOS33 [get_ports {q1}]
+
+set_property PACKAGE_PIN M15 [get_ports CLOCK1]
+set_property PACKAGE_PIN H17 [get_ports reset1]
+set_property PACKAGE_PIN V22 [get_ports {q0}]
+set_property PACKAGE_PIN W22 [get_ports {q1}]
+set_property PACKAGE_PIN U19 [get_ports {q2}]
+set_property PACKAGE_PIN U14 [get_ports {q3}]

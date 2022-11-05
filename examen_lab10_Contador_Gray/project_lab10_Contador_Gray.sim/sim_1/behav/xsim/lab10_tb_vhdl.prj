@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/clock.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/flip_flop_D.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/lab10_ds.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/multi_Z.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/multi_q0.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/multi_q2.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sources_1/new/muti_q1.vhd" \
+"../../../../project_lab10_Contador_Gray.srcs/sim_1/new/lab10_tb.vhd" \
+
+# Do not sort compile order
+nosort

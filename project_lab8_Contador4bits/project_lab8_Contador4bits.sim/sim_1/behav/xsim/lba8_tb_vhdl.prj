@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_lab8_Contador4bits.srcs/sources_1/new/Clock.vhd" \
+"../../../../project_lab8_Contador4bits.srcs/sources_1/new/flipflop_D.vhd" \
+"../../../../project_lab8_Contador4bits.srcs/sources_1/new/lab8_ds.vhd" \
+"../../../../project_lab8_Contador4bits.srcs/sim_1/new/lba8_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/flip_flop_D.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'flip_flop_D'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/lab10_ds.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lab10_ds'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/multi_Z.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multi_Z'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/multi_q0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multi_q0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/multi_q2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multi_q2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sources_1/new/muti_q1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'muti_q1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab10_Contador_Gray/project_lab10_Contador_Gray.srcs/sim_1/new/lab10_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lab10_tb'

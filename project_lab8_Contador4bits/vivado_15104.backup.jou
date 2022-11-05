@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 31 20:15:34 2022
+# Process ID: 15104
+# Current directory: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18008 C:\Users\Rodrigo Herrera\OneDrive\Escritorio\project_lab8_Contador4bits\project_lab8_Contador4bits.xpr
+# Log file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/vivado.log
+# Journal file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source lba8_tb.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source lba8_tb.tcl
+close [ open {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/And_3to1.v} w ]
+add_files {{C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/And_3to1.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/And_2to1.v} w ]
+add_files {{C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/And_2to1.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/Or_2to1.v} w ]
+add_files {{C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.srcs/sources_1/new/Or_2to1.v}}
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source lba8_tb.tcl
+close_sim

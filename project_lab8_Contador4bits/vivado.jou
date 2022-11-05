@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Nov  4 23:02:53 2022
+# Process ID: 9428
+# Current directory: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12664 C:\Users\Rodrigo Herrera\OneDrive\Escritorio\project_lab8_Contador4bits\project_lab8_Contador4bits.xpr
+# Log file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/vivado.log
+# Journal file: C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rodrigo Herrera/OneDrive/Escritorio/project_lab8_Contador4bits/project_lab8_Contador4bits.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source lba8_tb.tcl
+close_sim
