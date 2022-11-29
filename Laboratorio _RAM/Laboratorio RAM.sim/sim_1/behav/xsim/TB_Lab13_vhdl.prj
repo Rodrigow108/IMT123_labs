@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Laboratorio RAM.srcs/sources_1/new/Module_register.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/and_gate.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/flipflop.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/mux.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/not_gate.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/or_gate.vhd" \
+"../../../../Laboratorio RAM.srcs/sources_1/new/reloj.vhd" \
+"../../../../Laboratorio RAM.srcs/sim_1/new/TB_Lab13.vhd" \
+
+# Do not sort compile order
+nosort
